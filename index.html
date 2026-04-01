@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petition: Replay Sweden vs Poland (3-2) — FIFA World Cup Qualifier Review</title>
+<meta name="description" content="Official petition to replay the Sweden vs Poland World Cup Qualifier (3-2) following controversial refereeing decisions. Sign now to demand fair play.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --navy: #1a2744;
+    --blue: #003da5;
+    --blue-light: #e8eef7;
+    --gold: #d4a843;
+    --red: #c8102e;
+    --white: #ffffff;
+    --gray-50: #f8f9fa;
+    --gray-100: #eef0f3;
+    --gray-200: #d4d8de;
+    --gray-600: #5a6270;
+    --gray-800: #2d3239;
+    --green: #28a745;
+    --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+    --font-heading: 'Merriweather', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--gray-50);
+    color: var(--gray-800);
+    line-height: 1.6;
+  }
+
+  /* ── TOP BAR ── */
+  .top-bar {
+    background: var(--navy);
+    color: rgba(255,255,255,.7);
+    font-size: 0.78rem;
+    padding: 6px 0;
+    letter-spacing: 0.03em;
+  }
+  .top-bar .wrap {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-bar a { color: rgba(255,255,255,.85); text-decoration: none; }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--blue);
+    padding: 18px 0;
+    border-bottom: 4px solid var(--gold);
+  }
+  header .wrap {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .logo-shield {
+    width: 48px; height: 48px;
+    background: var(--gold);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 11px; color: var(--navy);
+    line-height: 1.1; text-align: center;
+    flex-shrink: 0;
+  }
+  header h1 {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  header h1 span { color: var(--gold); }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb {
+    max-width: 960px;
+    margin: auto;
+    padding: 12px 20px;
+    font-size: 0.82rem;
+    color: var(--gray-600);
+  }
+  .breadcrumb a { color: var(--blue); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 960px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 32px;
+  }
+  @media (max-width: 768px) {
+    main { grid-template-columns: 1fr; }
+  }
+
+  /* ── PETITION CONTENT ── */
+  .petition-content {
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--gray-200);
+    overflow: hidden;
+  }
+  .scoreboard {
+    background: #1a1a2e;
+    padding: 28px 32px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .scoreboard::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(0,61,165,.25) 0%, transparent 70%),
+      repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,.015) 40px, rgba(255,255,255,.015) 80px);
+  }
+  .sb-comp {
+    text-align: center;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,.5);
+    margin-bottom: 4px;
+    position: relative;
+    letter-spacing: 0.03em;
+  }
+  .sb-status {
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .sb-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .sb-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 120px;
+  }
+  .sb-flag {
+    width: 64px; height: 44px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,.4);
+    display: flex;
+    flex-direction: column;
+  }
+  .flag-pl-top { flex: 1; background: #fff; }
+  .flag-pl-bottom { flex: 1; background: #dc143c; }
+  .flag-se-bg { flex: 1; background: #006aa7; position: relative; }
+  .flag-se-bg::before {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 20px; width: 8px;
+    background: #fecc02;
+  }
+  .flag-se-bg::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    top: 15px; height: 8px;
+    background: #fecc02;
+  }
+  .sb-team-name {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+  }
+  .sb-score {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .sb-score .num {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1;
+    font-family: var(--font-body);
+  }
+  .sb-score .dash {
+    font-size: 2rem;
+    color: rgba(255,255,255,.3);
+    font-weight: 300;
+  }
+  .sb-scorers {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 8px 0;
+    border-top: 1px solid rgba(255,255,255,.08);
+    position: relative;
+  }
+  .sb-scorers .side {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,.55);
+    line-height: 1.7;
+  }
+  .sb-scorers .side.right { text-align: right; }
+  .sb-scorers .side span { display: block; }
+  .sb-scorers .icon {
+    position: absolute;
+    left: 50%;
+    top: 14px;
+    transform: translateX(-50%);
+    font-size: 0.85rem;
+    color: rgba(255,255,255,.25);
+  }
+
+  .petition-body { padding: 28px 32px 36px; }
+  .petition-body h2 {
+    font-family: var(--font-heading);
+    font-size: 1.65rem;
+    color: var(--navy);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+  .petition-meta {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    margin-bottom: 20px;
+  }
+  .petition-meta strong { color: var(--gray-800); }
+  .tag {
+    display: inline-block;
+    background: var(--blue-light);
+    color: var(--blue);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .petition-body p { margin-bottom: 14px; color: var(--gray-800); font-size: 0.98rem; }
+
+  .petition-body ul {
+    margin: 10px 0 18px 20px;
+    font-size: 0.95rem;
+  }
+  .petition-body ul li { margin-bottom: 6px; }
+
+  .update-box {
+    background: #fffbea;
+    border-left: 4px solid var(--gold);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 20px 0;
+    font-size: 0.9rem;
+  }
+  .update-box strong { color: var(--navy); }
+
+  /* ── SIDEBAR ── */
+  .sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+  .sign-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .progress-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+  .progress-header strong { color: var(--navy); font-size: 1.1rem; }
+  .progress-bar {
+    height: 10px;
+    background: var(--gray-100);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 73%;
+    background: linear-gradient(90deg, var(--green), #34d058);
+    border-radius: 5px;
+    animation: fillIn 1.5s ease-out;
+  }
+  @keyframes fillIn { from { width: 0; } }
+  .progress-sub { font-size: 0.78rem; color: var(--gray-600); margin-bottom: 20px; }
+
+  .sign-card h3 {
+    font-size: 1rem;
+    color: var(--navy);
+    margin-bottom: 14px;
+  }
+  .form-group { margin-bottom: 12px; }
+  .form-group label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--gray-800);
+  }
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    font-size: 0.92rem;
+    font-family: var(--font-body);
+    transition: border-color .2s;
+  }
+  .form-group input:focus, .form-group select:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(0,61,165,.1);
+  }
+  .checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    margin-bottom: 16px;
+  }
+  .checkbox-row input[type="checkbox"] { margin-top: 3px; }
+
+  .btn-sign {
+    width: 100%;
+    padding: 14px;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-family: var(--font-body);
+    cursor: pointer;
+    letter-spacing: 0.02em;
+    transition: background .2s, transform .1s;
+  }
+  .btn-sign:hover { background: #a00d24; }
+  .btn-sign:active { transform: scale(0.98); }
+
+  .supporters-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 20px 24px;
+  }
+  .supporters-card h4 {
+    font-size: 0.88rem;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+  .supporter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--gray-100);
+    font-size: 0.88rem;
+  }
+  .supporter:last-child { border: none; }
+  .avatar {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.75rem;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .supporter .time { color: var(--gray-600); font-size: 0.78rem; margin-left: auto; }
+
+  /* ── SHARE BAR ── */
+  .share-bar {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 16px 24px;
+  }
+  .share-bar p { font-size: 0.85rem; font-weight: 600; margin-bottom: 10px; color: var(--navy); }
+  .share-btns { display: flex; gap: 8px; }
+  .share-btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--white);
+    font-family: var(--font-body);
+  }
+  .share-btn.tw { background: #1da1f2; }
+  .share-btn.fb { background: #1877f2; }
+  .share-btn.wa { background: #25d366; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy);
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+  footer a { color: rgba(255,255,255,.65); text-decoration: none; }
+
+  /* ── APRIL FOOLS OVERLAY ── */
+  .overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.75);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+  }
+  .overlay.active { display: flex; }
+  .prank-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 48px 52px;
+    text-align: center;
+    max-width: 460px;
+    width: 90%;
+    animation: popIn .4s cubic-bezier(.34,1.56,.64,1);
+    box-shadow: 0 24px 60px rgba(0,0,0,.3);
+  }
+  @keyframes popIn {
+    from { transform: scale(.7); opacity: 0; }
+  }
+  .prank-card .emoji { font-size: 4rem; margin-bottom: 16px; }
+  .prank-card h2 {
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+  .prank-card p {
+    font-size: 1.1rem;
+    color: var(--gray-600);
+    margin-bottom: 24px;
+  }
+  .prank-card .btn-close {
+    padding: 12px 32px;
+    background: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--font-body);
+  }
+  .prank-card .btn-close:hover { background: var(--navy); }
+  .confetti { position: fixed; top: -10px; z-index: 10000; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="wrap">
+    <span>🌐 Petitions for Fair Play in Football</span>
+    <span>EN | PL | SV | DE</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap">
+    <div class="logo-shield">FPF<br>⚽</div>
+    <h1>Fair Play <span>Football</span> — Official Petition Platform</h1>
+  </div>
+</header>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="#">Home</a> › <a href="#">Active Petitions</a> › <a href="#">FIFA World Cup Qualifiers</a> › Sweden vs Poland
+</div>
+
+<!-- MAIN -->
+<main>
+
+  <!-- LEFT: Petition content -->
+  <article class="petition-content">
+    <div class="scoreboard">
+      <div class="sb-comp">World Cup Qualifiers · 31 March 2026</div>
+      <div class="sb-status">Full-time</div>
+      <div class="sb-main">
+        <div class="sb-team">
+          <div class="sb-flag"><div class="flag-se-bg"></div></div>
+          <div class="sb-team-name">Sweden</div>
+        </div>
+        <div class="sb-score">
+          <span class="num">3</span>
+          <span class="dash">–</span>
+          <span class="num">2</span>
+        </div>
+        <div class="sb-team">
+          <div class="sb-flag">
+            <div class="flag-pl-top"></div>
+            <div class="flag-pl-bottom"></div>
+          </div>
+          <div class="sb-team-name">Poland</div>
+        </div>
+      </div>
+      <div class="sb-scorers">
+        <div class="side">
+          <span>Anthony Elanga 19'</span>
+          <span>Gustaf Lagerbielke 44'</span>
+          <span>Viktor Gyökeres 88'</span>
+        </div>
+        <div class="icon">⚽</div>
+        <div class="side right">
+          <span>Nicola Zalewski 33'</span>
+          <span>Karol Świderski 55'</span>
+        </div>
+      </div>
+    </div>
+    <div class="petition-body">
+      <h2>Petition: Replay Sweden vs Poland (3–2) — World Cup Qualifier</h2>
+      <p class="petition-meta">
+        Started by <strong>Tomasz Wiśniewski</strong> · 31 March 2026
+        <span class="tag">Urgent</span>
+      </p>
+
+      <p>Following yesterday's World Cup Qualifier between Sweden and Poland (3–2), we — the undersigned — demand that FIFA immediately order a full replay of the match under neutral officiating.</p>
+
+      <p>The match, played on <strong>31 March 2026</strong>, ended in a controversial 3–2 victory for Sweden, with Viktor Gyökeres scoring a decisive 88th-minute winner. However, the match was marred by several critical refereeing decisions that materially affected the outcome:</p>
+
+      <ul>
+        <li>A clear penalty denied to Poland in the 72nd minute after a blatant handball in the box by Lagerbielke, confirmed by multiple camera angles — the same player who had scored Sweden's second goal</li>
+        <li>Viktor Gyökeres' 88th-minute winner should have been disallowed — replays show a clear push on the Polish centre-back in the build-up, which VAR inexplicably chose not to review</li>
+        <li>Zalewski's equaliser in the 33rd minute was initially flagged offside before being correctly overturned, yet the same scrutiny was not applied to Sweden's goals</li>
+        <li>A second yellow card not given to Elanga for a cynical tactical foul on Zieliński in the 82nd minute, just 6 minutes before the winning goal</li>
+      </ul>
+
+      <p>Poland fought back from 2–0 down through Zalewski (33') and Świderski (55') to level the match at 2–2, only to be denied by a combination of poor officiating and inconsistent VAR application in the closing minutes.</p>
+
+      <div class="update-box">
+        <strong>📢 UPDATE (1 April 2026):</strong> The petition has gained significant traction overnight. Multiple sports journalists have shared the campaign. UEFA's press office has acknowledged receipt of the formal complaint.
+      </div>
+
+      <p>We call upon FIFA's Disciplinary Committee to invoke <strong>Article 77 of the FIFA Disciplinary Code</strong>, which provides grounds for annulment and replay in cases where match-altering officiating failures can be demonstrated.</p>
+
+      <p>Every signature counts. Share this petition widely to ensure the integrity of European football is upheld. Our voices will be heard.</p>
+    </div>
+  </article>
+
+  <!-- RIGHT: Sidebar -->
+  <aside class="sidebar">
+
+    <div class="sign-card">
+      <div class="progress-header">
+        <span><strong>73,412</strong> signed</span>
+        <span>Goal: 100,000</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <div class="progress-sub">26,588 more signatures needed</div>
+
+      <h3>✍️ Sign this petition</h3>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="e.g. Jan Kowalski">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label>Country</label>
+        <select>
+          <option>Poland</option>
+          <option>Sweden</option>
+          <option>United Kingdom</option>
+          <option>Germany</option>
+          <option>France</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" checked>
+        <span>Display my name publicly on the petition list</span>
+      </div>
+      <button class="btn-sign" id="signBtn">Sign the Petition</button>
+    </div>
+
+    <div class="supporters-card">
+      <h4>Recent Supporters</h4>
+      <div class="supporter">
+        <div class="avatar" style="background:#3b82f6">MK</div>
+        <div><strong>Marek K.</strong><br>Kraków, Poland</div>
+        <span class="time">2 min ago</span>
+      </div>
+      <div class="supporter">
+        <div class="avatar" style="background:#ef4444">AL</div>
+        <div><strong>Anna L.</strong><br>Warszawa, Poland</div>
+        <span class="time">5 min ago</span>
+      </div>
+      <div class="supporter">
+        <div class="avatar" style="background:#f59e0b">EJ</div>
+        <div><strong>Erik J.</strong><br>Stockholm, Sweden</div>
+        <span class="time">8 min ago</span>
+      </div>
+      <div class="supporter">
+        <div class="avatar" style="background:#10b981">SW</div>
+        <div><strong>Sarah W.</strong><br>London, UK</div>
+        <span class="time">12 min ago</span>
+      </div>
+      <div class="supporter">
+        <div class="avatar" style="background:#8b5cf6">PZ</div>
+        <div><strong>Piotr Z.</strong><br>Gdańsk, Poland</div>
+        <span class="time">15 min ago</span>
+      </div>
+    </div>
+
+    <div class="share-bar">
+      <p>Share this petition</p>
+      <div class="share-btns">
+        <button class="share-btn tw" onclick="document.getElementById('signBtn').click()">𝕏 Post</button>
+        <button class="share-btn fb" onclick="document.getElementById('signBtn').click()">Facebook</button>
+        <button class="share-btn wa" onclick="document.getElementById('signBtn').click()">WhatsApp</button>
+      </div>
+    </div>
+
+  </aside>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  Fair Play Football Petition Platform © 2026 · All rights reserved<br>
+  <a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a> · <a href="#">Contact</a> · <a href="#">About</a>
+</footer>
+
+<!-- APRIL FOOLS OVERLAY -->
+<div class="overlay" id="overlay">
+  <div class="prank-card">
+    <div class="emoji">🤡</div>
+    <h2>April Fools!</h2>
+    <p>There's no petition. There's no controversy. You've been pranked. Happy 1st April! 😄🎉</p>
+    <button class="btn-close" onclick="document.getElementById('overlay').classList.remove('active')">Ha ha, you got me</button>
+  </div>
+</div>
+
+<script>
+  // Trigger the prank on sign / share
+  document.getElementById('signBtn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('overlay').classList.add('active');
+    spawnConfetti();
+  });
+
+  function spawnConfetti() {
+    const colors = ['#c8102e','#003da5','#d4a843','#28a745','#ff6b6b','#ffd93d','#6bcb77'];
+    for (let i = 0; i < 80; i++) {
+      const c = document.createElement('div');
+      c.className = 'confetti';
+      c.style.left = Math.random() * 100 + 'vw';
+      c.style.width = (6 + Math.random() * 8) + 'px';
+      c.style.height = (6 + Math.random() * 8) + 'px';
+      c.style.background = colors[Math.floor(Math.random() * colors.length)];
+      c.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+      c.style.opacity = '0.9';
+      const dur = 1.5 + Math.random() * 2;
+      c.style.animation = `fall ${dur}s ease-in forwards`;
+      c.style.animationDelay = Math.random() * 0.8 + 's';
+      document.body.appendChild(c);
+      setTimeout(() => c.remove(), (dur + 1) * 1000);
+    }
+    // inject keyframes once
+    if (!document.getElementById('confetti-style')) {
+      const s = document.createElement('style');
+      s.id = 'confetti-style';
+      s.textContent = `@keyframes fall { 0%{transform:translateY(0) rotate(0deg);opacity:1} 100%{transform:translateY(100vh) rotate(720deg);opacity:0} }`;
+      document.head.appendChild(s);
+    }
+  }
+</script>
+</body>
+</html>
